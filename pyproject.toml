@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "course-5-coursework-work-with-bd"
+version = "0.1.0"
+description = ""
+authors = ["Dmitrii Kovkov <dmitrii.s.kovkov@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xmltojson = "^2.0.3"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "7.*"
+requests = "2.*"
+urllib3 = "2.*"
+packaging = "23.*"
+certifi = "2024.*"
+pytest = "7.*"
+pytest-cov = "4.*"
+pandas = "2.*"
+attrs = "22.*"
+colorama = "*"
+pluggy = "*"
+charset-normalizer = "=3.*"
+idna = "^3.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
