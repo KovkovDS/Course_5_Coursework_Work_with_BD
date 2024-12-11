@@ -185,5 +185,4 @@ class DBManager:
         Заканчивает соединение с объектом для внесения изменения в базу данных и закрывает соединение с базой.
         """
         self._cursor.close()
-        # conn = psycopg2.connect(self._params_conn, dbname=self._bd)
         self._conn.close()
